@@ -57,3 +57,4 @@ db_nmap -sV 192.168.18.138    # scanned Windows Server 2022
 - Domain    - training.com
 - OS        - Windows Server 2022
 - MAC       - 00:0C:29:AA:AD:14 (VMware)
+
