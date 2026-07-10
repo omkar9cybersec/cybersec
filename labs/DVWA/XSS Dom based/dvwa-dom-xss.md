@@ -32,7 +32,7 @@
 3. View page source — filter explicitly strips `<script>` tags (blacklist, not encoding).
 4. Bypass: close the `<option>` element, then inject a non-`<script>` payload using an event handler:
    ```
-   </option><svg onload=alert(1)>
+   </option></select><svg/onload="alert(1)"
    ```
 5. Alert box fires — filter bypassed.
 
