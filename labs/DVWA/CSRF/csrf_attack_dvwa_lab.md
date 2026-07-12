@@ -178,16 +178,3 @@ Set-Cookie: session=abc123; SameSite=Strict
 ## Files Used
 - `csrf.html` — Malicious CSRF payload (stored locally)
 - DVWA CSRF page — Vulnerable endpoint
-
-## Timeline
-- **00:01–00:52** — Initial reconnaissance (GET vulnerability)
-- **00:52–01:49** — Request interception and PoC generation
-- **01:49–02:48** — Payload file creation and password reset
-- **02:48–03:43** — Attack execution and verification
-
----
-
-## References
-- **OWASP CSRF:** https://owasp.org/www-community/attacks/csrf
-- **DVWA CSRF:** http://dvwa.co.uk/
-- **CWE-352:** https://cwe.mitre.org/data/definitions/352.html
